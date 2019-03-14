@@ -85,7 +85,7 @@
 	});
 
 	// Menu Arrows
-	$("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
+	// $("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 
 	// Menu Toggles
 	$("#nav >li>ul,#flyout >li>ul").addClass('first-level');
@@ -304,7 +304,31 @@
 	});
 
 	$window.ready(function(){
-		
+
+		// Fill sides script
+		function fillSide(){
+			var windowWidth = $('body').outerWidth();
+			var pixelValue = (windowWidth - $('.container').width()) / 2;
+			$('.fillLeft').css({
+					'margin-left': -pixelValue
+			});
+			
+			$('.fillRight').css({
+					'margin-right': -pixelValue
+			});
+			$('.fillLeft.withPadding').css({
+					'margin-left': -pixelValue,
+					'padding-left': pixelValue
+			});
+			
+			$('.fillRight.withPadding').css({
+					'margin-right': -pixelValue,
+					'padding-right': pixelValue
+			});
+		}
+		fillSide();
+		$window.resize(fillSide);
+
 		// Font Adjuster
 		function textResizer() {
 			var $base, $baseSize, $dec, $inc;

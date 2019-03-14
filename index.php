@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -49,11 +50,11 @@
 			<div tabindex="0" id="nav-toggle" class="fa fa-bars"></div>	
 		</div><!-- /#toggles -->
 
-		<div id="top-nav">
+		<div id="top-nav" class="fillLeft fillRight withPadding">
 			<ul id="settings">
 				<li id="resize-header">text size</li>
-				<li id="font-increase">+</li>
-				<li id="font-decrease">-</li>
+				<li id="font-decrease" class="fa fa-minus"></li>
+				<li id="font-increase" class="fa fa-plus"></li>
 				<li id="google-translate">
 					<script type="text/javascript">
 						function googleTranslateElementInit() {
@@ -70,11 +71,11 @@
 		<div id="bottom-nav">
 			<nav>
 				<ul id="nav">
-					<li><a href="./">community</a></li>
-					<li><a href="./">government</a></li>
-					<li><a href="./">departments</a></li>
+					<li><a href="./">home</a></li>
+					<li><a href="./">residents</a></li>
+					<li><a href="./">discover asheboro</a></li>
 					<li>
-						<a href="./">services</a>
+						<a href="./">businesses</a>
 						<ul>
 							<li><a href="./">this is a link</a></li>
 							<li><a href="./">this is a link</a>
@@ -89,8 +90,8 @@
 							<li><a href="./">this is a link</a></li>
 						</ul>
 					</li>
-					<li><a href="./">schools</a></li>
-					<li><a href="./">how do i...</a></li>
+					<li><a href="./">departments</a></li>
+					<li><a href="./">how do i?</a></li>
 				</ul> <!-- /#nav -->
 			</nav>
 
@@ -102,7 +103,7 @@
 			<div id="search">
 				<form class="search-form" method="get" action="search.php">
 					<label class="fa fa-search" for="search-input"></label>
-					<input name="q" class="form-control search-input" placeholder="Type to Search" type="search" id="search-input">
+					<input name="q" class="form-control search-input" placeholder="SEARCH HERE" type="search" id="search-input">
 					<button><i class="fa fa-search"></i></button>
 				</form><!-- /.search-form -->
 			</div><!-- /#search -->
