@@ -196,10 +196,12 @@
 						</a><!-- /.welcome-links-img -->
 					</div><!-- /#welcome-links-wrapper -->
 				</div><!-- /#welcome-links -->
-				<div id="welcome-effect" style="background:url('./_assets_/images/welcome-effect.png') center no-repeat;background-size:cover;">
-					<div class="welcome-img" style="background:url('./_assets_/images/welcome-img1.png') center no-repeat;background-size:cover;"></div>
-				</div><!-- /#welcome-effect -->
-				<div class="welcome-img" style="background:url('./_assets_/images/welcome-img2.png') center no-repeat;background-size:cover;"></div>
+				<div class="img-container">
+					<div class="welcome-img" style="background:url('./_assets_/images/welcome-img1.jpg') center no-repeat;background-size:cover;">
+						<div id="welcome-effect" style="background:url('./_assets_/images/welcome-effect.png') center no-repeat;background-size:cover;"></div><!-- /#welcome-effect -->
+					</div><!-- /.welcome-img -->
+					<div class="welcome-img" style="background:url('./_assets_/images/welcome-img2.jpg') center no-repeat;background-size:cover;"></div>
+				</div>
 			</div><!-- /.container -->
 			<div id="welcome-bg" style="background:url('./_assets_/images/welcome-bg.png') center no-repeat;background-size:cover;"></div>
 		</section><!-- /#welcome -->
