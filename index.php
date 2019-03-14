@@ -119,10 +119,9 @@
 			<li style="background: url('./_assets_/images/hero3.jpg') center no-repeat;background-size: cover;"></li>
 			<li style="background: url('./_assets_/images/hero4.jpg') center no-repeat;background-size: cover;"></li>
 		</ul><!-- /.bxslider -->
-
-		<div class="text-center">
-			<h1><span>home of the</span> north carolina zoo</h1>
-		</div>
+		<div class="container">
+			<h1><span>home of the</span>north carolina zoo</h1>
+		</div><!-- /.container -->
 	</section><!-- /#slider -->
 	
 

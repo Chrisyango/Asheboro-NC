@@ -20,6 +20,12 @@
 		url(../fonts/opensanscondensed/OpenSansCondensed-Bold.woff) format("woff"),
 		url(../fonts/opensanscondensed/OpenSansCondensed-Bold.woff2) format("woff2");
 }
+@font-face{
+	font-family: 'Blacksword';
+	src:
+		url(../fonts/blacksword/Blacksword.woff) format("woff"),
+		url(../fonts/blacksword/Blacksword.woff2) format("woff2");
+}
 body{background:#fff;font-size:14px;line-height:1.6;font-family:sans-serif;color:#444;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
 
 /* -----------------------------------------
@@ -197,6 +203,8 @@ body{overflow-x:hidden}
 .container {width: 1170px; max-width: 100%;}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
+#calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
+
 
 /*--------------- #nav ---------------*/
 header {position: relative; z-index: 100;}
@@ -227,7 +235,7 @@ nav,
 #nav li {display: inline-block; margin: 0;}
 
 #nav ul {display: none;}
-#nav li a {display: block; font-family: 'OpenSansBold'; font-size: 20px; line-height: 48px; text-transform: capitalize; color: #1f446d; text-decoration: none; padding: 26px 20px;}
+#nav li a {display: block; font-family: 'OpenSansBold'; font-size: 20px; line-height: 48px; text-transform: capitalize; color: #1f446d; text-decoration: none; padding: 26px 20px 28px;}
 #nav li a:hover {color: #84b54a;}
 
 .social-links {position: relative; top: 1px; display: inline-block; margin-right: 14px;}
@@ -241,7 +249,13 @@ nav,
 #search input::placeholder {font-family: 'OpenSansBold'; font-size: 16px; font-weight: 700; letter-spacing: 0.05em; color: #dfa699;}
 #search button {position: absolute; top: 50%; right: 0; transform: translateY(-50%); font-size: 18px; height: 50px; background-color: transparent; border: none;}
 
-#calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
+
+/*--------------- #slider ---------------*/
+#slider {position: relative; height: 615px;}
+
+#slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -78%); z-index: 51; text-align: center;}
+#slider h1 {font-family: 'OpenSansBold'; font-size: 100px; line-height: 24px; letter-spacing: 0.05em; text-transform: uppercase; color: #fff;}
+#slider h1 span {display: block; position: relative; top: 11px; left: -252px; font-family: 'Blacksword'; font-size: 80px; line-height: 100px; letter-spacing: 0; text-transform: capitalize; color: #f5d378;}
 
 /* -----------------------------------------
 
