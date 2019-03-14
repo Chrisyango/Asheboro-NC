@@ -163,36 +163,38 @@
 					<p>
 						Whether you’re a business owner, visitor or resident, Asheboro is exactly where you want to be! Located in the heart of North Carolina, Asheboro is home to rich economic, natural and cultural resources. Our “come as you are” attitude invites you to jump in and become part of the community - whether you’re here for an afternoon or a lifetime.
 					</p>
-					<a href="./">view all departments</a>
+					<a href="./" class="btn">view all departments <span style="background:url('./_assets_/images/right-arrow.png') center no-repeat;background-size:cover;"></span></a>
 				</div>
 				<div id="welcome-links" class="col-md-3">
-					<a href="./">
-						<div class="welcome-links-img" style="background:url('./_assets_/images/welcome1.png') center no-repeat;background-size:cover;"></div>
-						<span>animal control</span>
-					</a><!-- /.welcome-links-img -->
-					<a href="./">
-						<div class="welcome-links-img" style="background:url('./_assets_/images/welcome2.png') center no-repeat;background-size:cover;"></div>
-						<span>human resources</span>
-					</a><!-- /.welcome-links-img -->
-					<a href="./">
-						<div class="welcome-links-img" style="background:url('./_assets_/images/welcome3.png') center no-repeat;background-size:cover;"></div>
-						<span>planning & zoning</span>
-					</a><a href="./">
-						<div class="welcome-links-img" style="background:url('./_assets_/images/welcome4.png') center no-repeat;background-size:cover;"></div>
-						<span>police department</span>
-					</a><!-- /.welcome-links-img -->
-					<a href="./">
-						<div class="welcome-links-img" style="background:url('./_assets_/images/welcome5.png') center no-repeat;background-size:cover;"></div>
-						<span>fire department</span>
-					</a><!-- /.welcome-links-img -->
-					<a href="./">
-						<div class="welcome-links-img" style="background:url('./_assets_/images/welcome6.png') center no-repeat;background-size:cover;"></div>
-						<span>water resources</span>
-					</a><!-- /.welcome-links-img -->
-					<a href="./">
-						<div class="welcome-links-img" style="background:url('./_assets_/images/welcome7.png') center no-repeat;background-size:cover;"></div>
-						<span>code enforcement</span>
-					</a><!-- /.welcome-links-img -->
+					<div id="welcome-links-wrapper">
+						<a href="./">
+							<div class="welcome-links-img" style="background:url('./_assets_/images/welcome1.png') center no-repeat;background-size:cover;"></div>
+							<span>animal control</span>
+						</a><!-- /.welcome-links-img -->
+						<a href="./">
+							<div class="welcome-links-img" style="background:url('./_assets_/images/welcome2.png') center no-repeat;background-size:cover;"></div>
+							<span>human resources</span>
+						</a><!-- /.welcome-links-img -->
+						<a href="./">
+							<div class="welcome-links-img" style="background:url('./_assets_/images/welcome3.png') center no-repeat;background-size:cover;"></div>
+							<span>planning & zoning</span>
+						</a><a href="./">
+							<div class="welcome-links-img" style="background:url('./_assets_/images/welcome4.png') center no-repeat;background-size:cover;"></div>
+							<span>police department</span>
+						</a><!-- /.welcome-links-img -->
+						<a href="./">
+							<div class="welcome-links-img" style="background:url('./_assets_/images/welcome5.png') center no-repeat;background-size:cover;"></div>
+							<span>fire department</span>
+						</a><!-- /.welcome-links-img -->
+						<a href="./">
+							<div class="welcome-links-img" style="background:url('./_assets_/images/welcome6.png') center no-repeat;background-size:cover;"></div>
+							<span>water resources</span>
+						</a><!-- /.welcome-links-img -->
+						<a href="./">
+							<div class="welcome-links-img" style="background:url('./_assets_/images/welcome7.png') center no-repeat;background-size:cover;"></div>
+							<span>code enforcement</span>
+						</a><!-- /.welcome-links-img -->
+					</div><!-- /#welcome-links-wrapper -->
 				</div><!-- /#welcome-links -->
 				<div id="welcome-effect" style="background:url('./_assets_/images/welcome-effect.png') center no-repeat;background-size:cover;">
 					<div class="welcome-img" style="background:url('./_assets_/images/welcome-img1.png') center no-repeat;background-size:cover;"></div>
