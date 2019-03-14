@@ -1,9 +1,10 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: SiteName
+	Theme Name: Asheboro, NC
+	Front-end Developer: Chris Yang
 	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
 	Author URI: http://www.revize.com/
-	Date: MONTH DAY, 2015
+	Date: March 14, 2019
 
 -----------------------------------------------------------------------------------*/
 
@@ -303,6 +304,28 @@
 	});
 
 	$window.ready(function(){
+		
+		// Font Adjuster
+		function textResizer() {
+			var $base, $baseSize, $dec, $inc;
+			if ($('#settings').length) {
+				$inc = $('#font-increase');
+				$dec = $('#font-decrease');
+				$inc.on('click', function(e) {
+					return $('#post,body, #nav a,#nav span, body section').css({
+						'font-size': '+=3',
+						'line-height' : '+= 3'
+					});
+				});
+				$dec.on('click', function(e) {
+					return $('#post,body, #nav a,#nav span, body section').css({
+						'font-size': '-=3',
+						'line-height' : '+= 3'
+					});
+				});
+			}
+		};
+		textResizer();
 
 		// matchHeight
 		if(typeof $.fn.matchHeight !== "undefined"){
