@@ -253,9 +253,25 @@ nav,
 /*--------------- #slider ---------------*/
 #slider {position: relative; height: 615px;}
 
-#slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -78%); z-index: 51; text-align: center;}
+#slider>.container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -78%); z-index: 51; text-align: center;}
 #slider h1 {font-family: 'OpenSansBold'; font-size: 100px; line-height: 24px; letter-spacing: 0.05em; text-transform: uppercase; color: #fff;}
 #slider h1 span {display: block; position: relative; top: 11px; left: -252px; font-family: 'Blacksword'; font-size: 80px; line-height: 100px; letter-spacing: 0; text-transform: capitalize; color: #f5d378;}
+
+
+/*--------------- #slider ---------------*/
+#quick-links {position: absolute; bottom: -109px; left: 50%; transform: translateX(-50%); z-index: 51;}
+#quick-links .container {width: 1200px;}
+#quick-links-wrapper .owl-stage-outer {overflow: unset;}
+#quick-links-wrapper div:nth-of-type(1n) .img-wrapper {background-color: #c85530;}
+#quick-links-wrapper div:nth-of-type(2n) .img-wrapper {background-color: #f5d378;}
+#quick-links-wrapper div:nth-of-type(3n) .img-wrapper {background-color: #0072bc;}
+#quick-links-wrapper div:nth-of-type(4n) .img-wrapper {background-color: #84b54a;}
+.img-wrapper {position: relative; top: -45px; width: 80px; height: 80px; margin: 0 auto; z-index: 51; transition: all 0.3s;}
+a.quick-link {font-family: 'OpenSansBold'; font-size: 20px; line-height: 22px; text-transform: uppercase; color: #1f446d; display: block; text-align: center; text-decoration: none; background-color: #fff; box-shadow: 0px 10px 20px 0px rgba(31, 68, 109, 0.1); padding: 5px 80px 33px; transition: all 0.3s;}
+a.quick-link:hover {transform: scale(1.125);}
+a.quick-link:hover .img-wrapper {top: -36px; transform: scale(0.89)}
+.quick-link-img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 35px; height: 35px;}
+
 
 /* -----------------------------------------
 

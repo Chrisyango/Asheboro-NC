@@ -290,7 +290,28 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		$("#owl-slider").owlCarousel();
+		let quickLinksCount = $('.quick-link').length;
+		const quickLinkItems = function(num) {
+			return (quickLinksCount >= num ? num : quickLinksCount);
+		}
+		$("#quick-links-wrapper").owlCarousel({
+			loop: quickLinksCount > 1 ? true : false,
+			responsiveClass: true,
+			nav: true,
+			autoHeight: true,
+			navText: ['<i class="fa fa-caret-left"></i>', '<i class="fa fa-caret-right"></i>'],
+			margin: 30,
+			responsive: {
+				0: {
+					items: quickLinkItems(1),
+				},
+				900: {
+					items: quickLinkItems(4),
+					loop: false,
+					nav: false
+				}
+			}
+		});
 	}
 
 	// Preloader

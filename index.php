@@ -122,31 +122,38 @@
 		<div class="container">
 			<h1><span>home of the</span>north carolina zoo</h1>
 		</div><!-- /.container -->
-	</section><!-- /#slider -->
-	
 
-	<section id="quick-links">
-		<div class="container">
-			<div id="quick-links-wrapper" class="owl-carousel">
-				<a href="./" class="quick-link">
-					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link1.png') center no-repeat;background-size:cover;"></div>
-					<span>utility billing</span>
-				</a><!-- /.quick-links -->
-				<a href="./" class="quick-link">
-					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link2.png') center no-repeat;background-size:cover;"></div>
-					<span>public safety</span>
-				</a><!-- /.quick-links -->
-				<a href="./" class="quick-link">
-					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link3.png') center no-repeat;background-size:cover;"></div>
-					<span>culture & recreation</span>
-				</a><!-- /.quick-links -->
-				<a href="./" class="quick-link">
-					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link4.png') center no-repeat;background-size:cover;"></div>
-					<span>forms & documents</span>
-				</a><!-- /.quick-links -->
-			</div><!-- /#quick-links-wrapper.owl-carousel -->
-		</div><!-- /.container -->
-	</section><!-- /#quick-links -->
+		<section id="quick-links">
+			<div class="container">
+				<div id="quick-links-wrapper" class="owl-carousel">
+					<a href="./" class="quick-link">
+						<div class="img-wrapper">
+							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link1.png') center no-repeat;background-size:cover;"></div>
+						</div><!-- /.img-wrapper -->
+						utility billing
+					</a><!-- /.quick-links -->
+					<a href="./" class="quick-link">
+						<div class="img-wrapper">
+							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link2.png') center no-repeat;background-size:cover;"></div>
+						</div><!-- /.img-wrapper -->
+						public safety
+					</a><!-- /.quick-links -->
+					<a href="./" class="quick-link">
+						<div class="img-wrapper">
+							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link3.png') center no-repeat;background-size:cover;"></div>
+						</div><!-- /.img-wrapper -->
+						culture & recreation
+					</a><!-- /.quick-links -->
+					<a href="./" class="quick-link">
+						<div class="img-wrapper">
+							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link4.png') center no-repeat;background-size:cover;"></div>
+						</div><!-- /.img-wrapper -->
+						forms & documents
+					</a><!-- /.quick-links -->
+				</div><!-- /#quick-links-wrapper.owl-carousel -->
+			</div><!-- /.container -->
+		</section><!-- /#quick-links -->
+	</section><!-- /#slider -->
 
 	<section id="content">
 		<section id="welcome">
