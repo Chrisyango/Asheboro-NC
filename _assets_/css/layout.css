@@ -386,10 +386,16 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
 
-.breadcrumbs{font-size:13px;text-transform:capitalize}
-.breadcrumbs p{margin:0}
-.breadcrumbs a{text-decoration:none}
-.breadcrumbs i{font-size:13px;margin:0 4px}
+/*--------------- #slider ---------------*/
+#freeform #slider {height: 350px;}
+#freeform #slider .container {position: relative; top: unset; bottom: 163px; left: 0; transform: unset; text-align: left;}
+#freeform #slider h1 {font-size: 60px; line-height: 60px; letter-spacing: -0.025em; text-transform: capitalize; margin-left: -5px; margin-bottom: 25px;}
+
+#breadcrumbs{font-family: 'OpenSansBold'; font-size:16px;text-transform:uppercase; color:#84b54a;}
+#breadcrumbs p{margin:0}
+#breadcrumbs a{text-decoration:none; color:#fff;}
+#breadcrumbs a:after {content: '\f054'; font-family: 'FontAwesome'; position: relative; top: -3px; font-size: 7px; margin-left: 6px; margin-right: 18px;}
+#breadcrumbs i{font-size:13px;margin:0 4px}
 
 /* -----------------------------------------
 
