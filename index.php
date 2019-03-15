@@ -306,11 +306,10 @@
 </main>
 
 <footer>
-	<div class="container">
-		<div id="top-footer" class="clearfix">
+	<section id="top-footer" class="clearfix">
+		<div class="container">
 			<section id="contact-info">
-				<span>&copy; <strong>2018 asheboro, nc</strong></span>
-				<span>146 n. church street</span>
+				<span>&copy; <strong>2018 <span>asheboro, nc</span></strong> 146 n. church street</span>
 				<span>po box 1106</span>
 				<span>asheboro, nc 27204</span>
 			</section><!-- /#contact-info -->
@@ -319,9 +318,11 @@
 				<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize.</a> - The Government Website Experts.</span>
 				<a href="./">login</a>
 			</section><!-- /#revize-logo -->
-		</div><!-- /#top-footer.clearfix -->
-		
-		<section id="footer-links">
+		</div><!-- /.container -->
+	</section><!-- /#top-footer.clearfix -->
+	
+	<section id="footer-links">
+		<div class="container">
 			<section id="left-links">
 				<div class="social-links hidden-sm hidden-xs">
 					<a href="./" class="fa fa-facebook"></a>
@@ -340,8 +341,8 @@
 					staff email access
 				</a>
 			</section><!-- /#right-links -->
-		</section><!-- /#footer-links -->
-	</div><!-- /.container -->
+		</div><!-- /.container -->
+	</section><!-- /#footer-links -->
 </footer>
 
 <div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">

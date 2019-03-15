@@ -323,7 +323,7 @@ a.quick-link:hover .img-wrapper {top: -36px; transform: scale(0.89)}
 
 #discover {position: relative; width: 1363px; max-width: 100%; padding: 96px 0 117px; margin: 0 auto; background-color: #f5d378; text-align: center;}
 #discover h2 {position: relative; font-family: 'OpenSansBold'; font-size: 76px; line-height: 100px; color: #fff; text-transform: uppercase; z-index: 1; text-align: center; text-shadow: 0px 6px 0px rgba(200, 85, 48, 0.3);}
-#discover h2 span {position: absolute; top: 51px; left: 50%; transform: translateX(-51.5%); font-family: 'Blacksword'; font-size: 200px; line-height: 22px; color: #d6bc76; text-transform: capitalize; z-index: -1;}
+#discover h2 span {position: absolute; top: 51px; left: 50%; transform: translateX(-51.5%); font-family: 'Blacksword'; font-size: 200px; line-height: 22px; color: #d6bc76; text-transform: capitalize; z-index: -1; text-shadow: none;}
 #discover a.btn {font-family: 'OpenSansBold'; font-size: 16px; letter-spacing: 0.05em; position: relative; top: 27px; width: 221px; height: 42px; line-height:  42px; padding: 0;}
 #discover-links {position: relative; margin-top: 81px;}
 a.discover-link {display: inline-block; width: 100%; margin-bottom: 30px; text-decoration: none; text-align: center; padding: 84px 0 74px;}
@@ -342,6 +342,29 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 .events-img {position: absolute; border-radius: 100%;}
 .events-img {top: -392px; right: 75px; width: 29.9%; padding-bottom: 30%;}
 .events-img:last-of-type {top: -219px; right: -5px; width: 17%; padding-bottom: 16%; border: 6px solid #fff;}
+
+
+/*--------------- #footer ---------------*/
+#top-footer {background-color: #5692bf; color: #fff; text-transform: uppercase; font-size: 14px; line-height: 22px; padding: 45px 0 42px;}
+#top-footer strong span {letter-spacing: 0.05em;}
+#top-footer span:not(:last-of-type):after {content: '\2022'; margin-left: 3px;}
+#contact-info {float: left;}
+#revize-logo {position: relative; top: -2px; text-align: right;}
+#revize-logo a {display: inline-block; text-decoration: none;}
+#revize-logo>a {font-family: 'OpenSansBold'; font-size: 16px; letter-spacing: 0.05em; color: #f5d378;}
+#revize-logo span {font-weight: 700;}
+#revize-logo span a {font-family: 'Roboto'; color: #fff; text-transform: lowercase}
+
+#footer-links {background-color: #1f446d; padding: 16px 0 17px;}
+#footer-links a {font-size: 14px; line-height: 22px; font-weight: 700; color: #fff; text-transform: capitalize; text-decoration: none;}
+#footer-links a i {color: #84b54a; font-size: 18px; margin-right: 6px;}
+#footer-links .social-links a {color: #84b54a;}
+#social-links,
+#footer-nav,
+#footer-nav li {display: inline-block; margin: 0; padding: 0;}
+#footer-nav li {margin: 0 13px;}
+#left-links {float: left;}
+#right-links {float: right;}
 
 /* -----------------------------------------
 
