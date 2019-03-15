@@ -481,6 +481,11 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 
 	/*--------------- #nav ---------------*/
 	#nav li a {font-size: 16px;}
+
+	/*--------------- #slider ---------------*/
+	#slider {height: 500px;}
+	#slider h1 {font-size: 80px;}
+	#slider h1 span {font-size: 70px; left: -183px;}
 }
 
 @media only screen and (max-width:991px) {
@@ -526,6 +531,10 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
 
+	/*--------------- #slider ---------------*/
+	#slider h1 {font-size: 75px;}
+	#slider h1 span {font-size: 65px; top: 19px; left: -176px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -538,13 +547,23 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
+	/*--------------- #slider ---------------*/
+	#slider h1 {font-size: 45px;}
+	#slider h1 span {font-size: 40px; top: 35px; left: -101px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width:480px) and (max-width:767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width:479px) {}
+@media only screen and (max-width:479px) {
+
+	/*--------------- #slider ---------------*/
+	#slider h1 {font-size: 34px;}
+	#slider h1 span {font-size: 30px; top: 42px; left: -78px;}
+
+}
 
 @media print {
 	.nav-wrap,
