@@ -50,7 +50,7 @@
 			<div tabindex="0" id="nav-toggle" class="fa fa-bars"></div>	
 		</div><!-- /#toggles -->
 
-		<div id="top-nav" class="fillLeft fillRight withPadding">
+		<div id="top-nav" class="fillLeft fillRight withPadding hidden-sm hidden-xs">
 			<ul id="settings">
 				<li id="resize-header">text size</li>
 				<li id="font-decrease" class="fa fa-minus"></li>
