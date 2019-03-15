@@ -578,6 +578,7 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	a.quick-link {font-size: 18px; padding-left: 40px; padding-right: 40px;}
 
 	/*--------------- #welcome ---------------*/
+	#welcome {padding-bottom: 50px;}
 	#welcome h2 {font-size: 64px;}
 	#welcome-info {padding: 50px 0;}
 	#welcome-links {padding: 0;}
@@ -612,8 +613,8 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	a.btn {font-size: 14px!important;}
 
 	/*--------------- #slider ---------------*/
-	#slider h1 {font-size: 45px;}
-	#slider h1 span {font-size: 40px; top: 35px; left: -101px;}
+	#slider h1 {line-height: 65px;}
+	#slider h1 span {font-size: 60px; top: 35px; left: -10px;}
 
 	/*--------------- #welcome ---------------*/
 	#welcome h2 {font-size: 52px; line-height: 80px;}
@@ -640,8 +641,8 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 @media only screen and (max-width:479px) {
 
 	/*--------------- #slider ---------------*/
-	#slider h1 {font-size: 34px;}
-	#slider h1 span {font-size: 30px; top: 42px; left: -78px;}
+	#slider h1 {font-size: 48px; line-height: 48px;}
+	#slider h1 span {font-size: 40px; top: 45px;}
 
 	/*--------------- #welcome ---------------*/
 	#welcome h2 {font-size: 40px;}
