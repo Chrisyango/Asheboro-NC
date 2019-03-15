@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -207,7 +207,8 @@
 		</section><!-- /#welcome -->
 
 		<section id="news-discover">
-			<section id="news" style="background:url('./_assets_/images/news-effect.png' center no-repeat;background-size:cover;)">
+			<section id="news">
+				<div id="news-effect" style="background:url('./_assets_/images/news-effect.png') center no-repeat;background-size:cover;"></div>
 				<div class="container">
 					<div class="clearfix">
 						<h2>latest news</h2>
@@ -215,55 +216,74 @@
 					</div><!-- /.clearfix -->
 					<div id="news-links" class="owl-carousel">
 						<div class="news-link">
-							<div class="news-links-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-							<span>dec 20, 2018</span>
-							<h3>donec ullamcorper nulla non metus auctor fringilla.</h3>
-							<a href="./">read more</a>
+							<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+							<div class="news-link-content">
+								<span>dec 20, 2018</span>
+								<h3>donec ullamcorper nulla non metus auctor fringilla.</h3>
+								<a href="./">read more</a>
+							</div><!-- /.news-link-content -->
 						</div><!-- /.news-link -->
 						<div class="news-link">
-							<div class="news-links-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
-							<span>dec 20, 2018</span>
-							<h3>donec sed odio dui.</h3>
-							<a href="./">read more</a>
+							<div class="news-link-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
+							<div class="news-link-content">
+								<span>dec 23, 2018</span>
+								<h3>donec sed odio dui.</h3>
+								<a href="./">read more</a>
+							</div><!-- /.news-link-content -->
 						</div><!-- /.news-link -->
 						<div class="news-link">
-							<div class="news-links-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;"></div>
-							<span>dec 20, 2018</span>
-							<h3>donec id elit non mi porta gravida et eget metus.</h3>
-							<a href="./">read more</a>
+							<div class="news-link-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;"></div>
+							<div class="news-link-content">
+								<span>dec 28, 2018</span>
+								<h3>donec id elit non mi porta gravida et eget metus.</h3>
+								<a href="./">read more</a>
+							</div><!-- /.news-link-content -->
 						</div><!-- /.news-link -->
 					</div><!-- /#news-links.owl-carousel -->
 				</div><!-- /.container -->
 			</section><!-- /#news -->
 			<div id="news-bg" style="background:url('./_assets_/images/news-bg.png') center no-repeat;background-size:cover;"></div>
 
-			<section id="discover" style="background:url('./_assets_/images/discover-effect.png') center no-repeat;background-size:cover;">
+			<section id="discover">
+				<div id="discover-effect" style="background:url('./_assets_/images/discover-effect.png') center no-repeat;background-size:cover;"></div>
 				<div class="container">
 					<h2><span>discover</span> discover asheboro</h2>
-					<div id="discover-links">
-						<a href="./" class="discover-link" style="background:url('./_assets_/images/discover1.jpg') center no-repeat;background-size:cover;">
-							<h3>north carolina zoo</h3>
-						</a>
-						<a href="./" class="discover-link" style="background:url('./_assets_/images/discover2.jpg') center no-repeat;background-size:cover;">
-							<h3>north carolina zoo</h3>
-						</a>
-						<a href="./" class="discover-link" style="background:url('./_assets_/images/discover3.jpg') center no-repeat;background-size:cover;">
-							<h3>north carolina zoo</h3>
-						</a>
-						<a href="./" class="discover-link" style="background:url('./_assets_/images/discover4.jpg') center no-repeat;background-size:cover;">
-							<h3>north carolina zoo</h3>
-						</a>
-						<a href="./" class="discover-link" style="background:url('./_assets_/images/discover5.jpg') center no-repeat;background-size:cover;">
-							<h3>north carolina zoo</h3>
-						</a>
-						<a href="./" class="discover-link" style="background:url('./_assets_/images/discover6.jpg') center no-repeat;background-size:cover;">
-							<h3>north carolina zoo</h3>
-						</a>
+					<div id="discover-links" class="row">
+						<div class="col-md-4">
+							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover1.jpg') center no-repeat;background-size:cover;">
+								<h3>north carolina zoo</h3>
+							</a><!-- /.discover-link -->
+						</div><!-- /.col-md-4 -->
+						<div class="col-md-4">
+							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover2.jpg') center no-repeat;background-size:cover;">
+								<h3>north carolina zoo</h3>
+							</a><!-- /.discover-link -->
+						</div><!-- /.col-md-4 -->
+						<div class="col-md-4">
+							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover3.jpg') center no-repeat;background-size:cover;">
+								<h3>north carolina zoo</h3>
+							</a><!-- /.discover-link -->
+						</div><!-- /.col-md-4 -->
+						<div class="col-md-4">
+							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover4.jpg') center no-repeat;background-size:cover;">
+								<h3>north carolina zoo</h3>
+							</a><!-- /.discover-link -->
+						</div><!-- /.col-md-4 -->
+						<div class="col-md-4">
+							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover5.jpg') center no-repeat;background-size:cover;">
+								<h3>north carolina zoo</h3>
+							</a><!-- /.discover-link -->
+						</div><!-- /.col-md-4 -->
+						<div class="col-md-4">
+							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover6.jpg') center no-repeat;background-size:cover;">
+								<h3>north carolina zoo</h3>
+							</a><!-- /.discover-link -->
+						</div><!-- /.col-md-4 -->
 					</div><!-- /#discover-links -->
-					<a href="./">view all attractions</a>
+					<a href="./" class="btn">view all attractions</a>
 				</div><!-- /.container -->
 			</section><!-- /#discover -->
-			<div id="news-bg" style="background:url('./_assets_/images/news-bg.png') center no-repeat;background-size:cover;"></div>
+			<div id="discover-bg" style="background:url('./_assets_/images/discover-bg.png') center no-repeat;background-size:cover;"></div>
 		</section><!-- /#news-discover -->
 
 		<section id="events">
