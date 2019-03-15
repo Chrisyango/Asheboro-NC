@@ -201,7 +201,7 @@
 						<div id="welcome-effect" style="background:url('./_assets_/images/welcome-effect.png') center no-repeat;background-size:cover;"></div><!-- /#welcome-effect -->
 					</div><!-- /.welcome-img -->
 					<div class="welcome-img" style="background:url('./_assets_/images/welcome-img2.jpg') center no-repeat;background-size:cover;"></div>
-				</div>
+				</div><!-- /.img-container -->
 			</div><!-- /.container -->
 			<div id="welcome-bg" style="background:url('./_assets_/images/welcome-bg.png') center no-repeat;background-size:cover;"></div>
 		</section><!-- /#welcome -->
@@ -290,13 +290,15 @@
 			<div class="container">
 				<div class="clearfix col-md-9">
 					<h2>upcoming events</h2>
-					<a href="./">view all events</a>
+					<a href="./" class="btn">view all events</a>
 				</div><!-- /.clearfix -->
 				<img src="./_assets_/images/events.png" alt="Events">
-				<div id="events-effect" style="background:url('./_assets_/images/events-effect.png') center no-repeat;background-size:cover;">
-					<div class="events-img" style="background:url('./_assets_/images/events1.jpg') center no-repeat;background-size:cover;"></div>
-				</div>
-				<div class="events-img" style="background:url('./_assets_/images/events2.jpg') center no-repeat;background-size:cover;"></div>
+				<div class="img-container">
+					<div class="events-img" style="background:url('./_assets_/images/events-img1.jpg') center no-repeat;background-size:cover;">
+						<div id="events-effect" style="background:url('./_assets_/images/events-effect.png') center no-repeat;background-size:cover;"></div><!-- /#events-effect -->
+					</div><!-- /.events-img -->
+					<div class="events-img" style="background:url('./_assets_/images/events-img2.jpg') center no-repeat;background-size:cover;"></div>
+				</div><!-- /.img-container -->
 			</div><!-- /.container -->
 			<div id="events-bg" style="background:url('./_assets_/images/events-bg.png') center no-repeat;background-size:cover;"></div>
 		</section><!-- /#events -->
