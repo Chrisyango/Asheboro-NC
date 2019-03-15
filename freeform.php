@@ -12,7 +12,6 @@
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
@@ -126,19 +125,28 @@
 				</p>
 			</section><!-- /#breadcrumbs -->
 		</div><!-- /.container -->
+		<div id="inner-bg" style="background:url('./_assets_/images/inner-bg.png') center no-repeat;background-size:cover;"></div>
 	</section><!-- /#slider -->
 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-			<aside id="side-content">
+				<aside id="side-content">
 					<div id="flyout-wrap">
 						<span id="flyout-header">section name here</span>
 						<ul id="flyout">
 							<li><a href="./">sem inceptos fermentum vehicula adipiscing</a></li>
 							<li><a href="./">lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
 							<li><a href="./">maecenas sed diam eget risus varius blandit sit amet non.</a></li>
-							<li><a href="./">page title lorem ipsum dolor</a></li>
+							<li>
+								<a href="./">page title lorem ipsum dolor</a>
+								<ul>
+									<li><a href="./">flyout link</a></li>
+									<li><a href="./">flyout link</a></li>
+									<li><a href="./">flyout link</a></li>
+									<li><a href="./">flyout link</a></li>
+								</ul>
+							</li>
 							<li><a href="./">nulla vitae elit libero, a pharetra augue.</a></li>
 							<li><a href="./">donec sed odio dui. vivamus sagittis lacus vel augue.</a></li>
 							<li><a href="./">aenean eu leo quam pellentesque ornare sem.</a></li>
@@ -153,14 +161,15 @@
 						<p>
 							Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
 						</p>
+						<img src="./_assets_/images/inner-img.jpg" alt="Asheborough Femal Academy">
 						<p>
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum.
 						</p>
 						<ul>
-							<li><a href="./">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</a></li>
-							<li><a href="./">Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel sceleris.</a></li>
+							<li>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</li>
+							<li>Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel sceleris.</li>
 						</ul>
-						<span class="subheader">our programs</span>
+						<span class="subheader">subheading (h2)</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
 						</p>
@@ -213,14 +222,6 @@
 		</div><!-- /.container -->
 	</section><!-- /#footer-links -->
 </footer>
-
-<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	<h4>Alert Title 30 characters Max</h4>
-	<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
-	<p><a href="#" class="btn">Read More</a></p>
-</div><!-- /.alert -->
-
 
 <!-- Share widget make into an include file -->
 <button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
@@ -279,7 +280,6 @@
 
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
-<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>

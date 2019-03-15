@@ -42,7 +42,7 @@ h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
 .header{font-size:28px;color:#111;margin-bottom:30px}
-.subheader{font-size:21px;color:#111;margin-bottom:30px}
+.subheader{font-family: 'OpenSansBold'; font-size:20px; line-height: 48px; letter-spacing: 0.1em; text-transform: uppercase; color:#1f446d; display: inline-block; margin-top: 9px; margin-bottom:14px}
 p{margin:0 0 30px 0}
 em{font-style:italic}
 strong,b{font-weight:bold}
@@ -198,7 +198,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 #skip{position:fixed;top:150px;left:-100%;-webkit-transition:all .3s ease-in;transition:all .3s ease-in;z-index:100}
-#skip:focus{left:15px;text-decoration:none;color:#fff;background-color:#2491b2;padding:10px 20px}
+#skip:focus{left:15px;text-decoration:none;color:#fff;background-color:#c85530;padding:10px 20px}
 body{overflow-x:hidden}
 .container {width: 1200px; max-width: 100%;}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -377,25 +377,34 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 #inner
 
 -----------------------------------------*/
-#flyout{margin:0;padding:0}
-#flyout li{margin:0;display:block;position:relative}
+#flyout{margin:0;padding:0;margin-top: 23px;}
+#flyout li{margin:0;display:block;position:relative;}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
-#flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
+#flyout span{text-decoration:none;padding:16px 2px;display:block; font-family: 'OpenSansBold'; font-size: 16px; line-height: 25px; letter-spacing: 0.05em; text-transform: uppercase; color :#1f446d;border-bottom:1px solid rgba(0,0,0,.2);}
+#flyout li:last-of-type a,
+#flyout li:last-of-type span {border: none;}
+#flyout ul{display: none; position:absolute;top:0;left:100%;margin:0;padding:0;background:#1f446d;z-index: 100;}
 #flyout li:hover > ul{display:block}
+#flyout-header {font-size: 30px; line-height: 30px; font-weight: 700; letter-spacing: -0.025em; text-transform: capitalize; color: #1f446d; display: block; padding: 0 41px;}
+#flyout-wrap {background-color: #f4f5f8; padding: 45px 0 330px;}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 350px;}
 #freeform #slider .container {position: relative; top: unset; bottom: 163px; left: 0; transform: unset; text-align: left;}
-#freeform #slider h1 {font-size: 60px; line-height: 60px; letter-spacing: -0.025em; text-transform: capitalize; margin-left: -5px; margin-bottom: 25px;}
+#freeform #page-title {font-size: 60px; line-height: 60px; letter-spacing: -0.025em; text-transform: capitalize; margin-left: -5px; margin-bottom: 25px;}
 
 #breadcrumbs{font-family: 'OpenSansBold'; font-size:16px;text-transform:uppercase; color:#84b54a;}
 #breadcrumbs p{margin:0}
 #breadcrumbs a{text-decoration:none; color:#fff;}
 #breadcrumbs a:after {content: '\f054'; font-family: 'FontAwesome'; position: relative; top: -3px; font-size: 7px; margin-left: 6px; margin-right: 18px;}
 #breadcrumbs i{font-size:13px;margin:0 4px}
+
+/*--------------- #entry ---------------*/
+#inner-bg {position: absolute; top: calc(100% - 116px); left: 0; width: 645px; max-width: 100%; height: 916px; z-index: -1;}
+#freeform main>.container {padding: 84px 15px 49px;}
+#post p {font-size: 16px; line-height: 24px; color: #1f446d;}
+#post ul {margin: 0 0 0 38px; padding: 0;}
+#post ul li {font-size: 16px; line-height: 24px; margin-bottom: 14px;}
 
 /* -----------------------------------------
 
@@ -422,7 +431,7 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 .btn-google:hover{border-color:#D34836}
 .btn-reddit:hover{border-color:#ff5700}
 .btn-lg{font-size:16px;padding:14px 30px;border:0;border-radius:3px}
-.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#2491b2!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#c85530!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
 .floating-share-btn span{display:block}
 
 /* -----------------------------------------
@@ -469,6 +478,15 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#nav .focused .toggle,#nav .focused .toggle2,#flyout .focused .toggle{display:inline-block;margin-left:8px}
 	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout{display:block!important}
+
+	#flyout li {padding: 0 41px; transition: all 0.3s;}
+	#flyout li:hover {background-color: #c85530;}
+	#flyout li:hover a,
+	#flyout li:hover span {color: #fff;}
+	#side-content {margin-top: 6px; margin-left: -1px; padding-right: 49px;}
+	#flyout ul li {padding: 0;}
+	#flyout ul a,
+	#flyout ul span{font-size:13px;padding:10px 15px; color: #fff; width: 180px}
 
 	/*--------------- #nav ---------------*/
 	#bottom-nav {text-align: right;}
@@ -570,11 +588,17 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
+	#flyout .toggle,
+	#flyout .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:45px;width:45px;line-height:45px;text-align:center}
+	#flyout-header {display: none;}
+	#flyout-wrap {padding: 15px;}
+	#flyout-toggle {font-size: 16px; color: #1f446d;}
+	#side-content {margin-bottom: 30px;}
 
 	/*--------------- #slider ---------------*/
 	#slider h1 {font-size: 75px;}
@@ -604,6 +628,9 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 
 	/*--------------- #events ---------------*/
 	#events h2 {font-size: 64px;}
+
+	/*--------------- #inner ---------------*/
+	#freeform main>.container {padding: 50px 15px;}
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -638,6 +665,11 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 
 	/*--------------- #events ---------------*/
 	#events h2 {font-size: 52px;}
+
+	/*--------------- #inner ---------------*/
+	#post p,
+	#post ul li {font-size: 14px;}
+	.subheader {font-size: 18px;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -647,6 +679,7 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 @media only screen and (max-width:479px) {
 
 	/*--------------- #slider ---------------*/
+	#freeform #page-title,
 	#slider h1 {font-size: 48px; line-height: 48px;}
 	#slider h1 span {font-size: 40px; top: 45px;}
 

@@ -68,7 +68,6 @@
 	// Keyboard Navigation: Nav, flyout
 	var isClick = false;
 	$("#nav li a, #flyout  li a, a, button, .toggle, .toggle2").on('focusin', function(e) {
-		console.log(isClick);
 		if( isClick === false ) {
 			$(".focused").removeClass("focused");
 			$(e.currentTarget).parents("#nav li, #flyout li").addClass("focused");
@@ -158,7 +157,7 @@
 	}
 
 	$("#flyout-toggle").on("click", function(){
-		flyout.slideToggle();
+		flyout.stop().slideToggle();
 		$(this).toggleClass("active");
 	});
 
@@ -357,6 +356,24 @@
 	});
 
 	$window.ready(function(){
+
+		// Skip To Content
+		$("#skip").click(function(event){
+    
+			// strip the leading hash and declare
+			// the content we're skipping to
+			let skipTo="#"+this.href.split('#')[1];
+
+			// Setting 'tabindex' to -1 takes an element out of normal 
+			// tab flow but allows it to be focused via javascript
+			$(skipTo).attr('tabindex', -1).on('blur focusout', function () {
+
+					// when focus leaves this element, 
+					// remove the tabindex attribute
+					$(this).removeAttr('tabindex');
+
+			}).focus(); // focus on the content container
+		});
 
 		// Fill sides script
 		function fillSide(){
