@@ -313,8 +313,11 @@ a.quick-link:hover .img-wrapper {top: -36px; transform: scale(0.89)}
 #news .container {position: relative; z-index: 1;}
 #news h2 {font-family: 'OpenSansBold'; font-size: 76px; line-height: 100px; text-transform: uppercase; color: #fff; text-shadow: 0px 6px 0px rgba(86, 146, 191, 0.3); float: left; margin: 0;}
 #news a.btn {font-family: 'OpenSansBold'; font-size: 16px; line-height: 42px; letter-spacing: 0.05em; float: right; position: relative; top: 37px; margin: 0; padding: 0; width: 168px; height: 42px;  }
-#news-links {position: relative; top: 29px;}
+#news-links {position: relative; top: 29px; max-width: calc(100% - 60px); margin: 0 auto;}
 #news-links .owl-height {height: 470px!important;}
+#news-links .owl-prev,
+#news-links .owl-next {position: absolute; top: 50%; left: -30px; transform: translateY(-50%); font-size: 30px;}
+#news-links .owl-next {left: unset; right: -30px;}
 .news-link {background-color: #fff; box-shadow: 0px 10px 20px 0px rgba(31, 68, 109, 0.1); min-height: 440px;}
 .news-link-img {width: 100%; height: 284px;}
 .news-link-content {padding: 24px 40px 20px;}
@@ -556,6 +559,19 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#welcome-info {padding: 50px 0;}
 	#welcome-links {padding: 0;}
 
+	/*--------------- #news-discover ---------------*/
+	#news {padding-top: 50px; height: 500px;}
+	#news h2,
+	#discover h2 {font-size: 64px;}
+	#news-links {top: 15px;}
+	.news-link {min-height: 396px;}
+	.news-link-img {height: 240px;}
+	.news-link span,
+	.news-link a {font-size: 14px;}
+	.news-link h3 {font-size: 18px;}
+
+	#discover h2 span {font-size: 150px; top: 45px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -572,6 +588,17 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#slider h1 {font-size: 45px;}
 	#slider h1 span {font-size: 40px; top: 35px; left: -101px;}
 
+	/*--------------- #news-discover ---------------*/
+	#news h2,
+	#discover h2 {font-size: 52px;}
+	#news h2,
+	#news a.btn {float: none;}
+	#news a.btn {top: 0;}
+	.news-link-content {padding: 20px;}
+
+	#discover {padding-top: 150px; padding-bottom: 80px;}
+	#discover h2 span {font-size: 125px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -583,6 +610,14 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	/*--------------- #slider ---------------*/
 	#slider h1 {font-size: 34px;}
 	#slider h1 span {font-size: 30px; top: 42px; left: -78px;}
+
+	/*--------------- #news-discover ---------------*/
+	#news h2,
+	#discover h2 {font-size: 40px;}
+
+	#discover {padding-top: 125px;}
+	#discover h2 span {font-size: 95px;}
+	#discover-links {margin-top: 50px;}
 
 }
 

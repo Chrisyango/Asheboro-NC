@@ -334,7 +334,10 @@
 				0: {
 					items: newsLinkItems(1),
 				},
-				900: {
+				800: {
+					items: newsLinkItems(2)
+				},
+				1200: {
 					items: newsLinkItems(3),
 					loop: false,
 					nav: false
