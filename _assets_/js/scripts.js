@@ -305,7 +305,13 @@
 				0: {
 					items: quickLinkItems(1),
 				},
-				900: {
+				500: {
+					items: quickLinkItems(2),
+				},
+				800: {
+					items: quickLinkItems(3),
+				},
+				1200: {
 					items: quickLinkItems(4),
 					loop: false,
 					nav: false
