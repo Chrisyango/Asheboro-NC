@@ -357,8 +357,9 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 #revize-logo {position: relative; top: -2px; text-align: right;}
 #revize-logo a {display: inline-block; text-decoration: none;}
 #revize-logo>a {font-family: 'OpenSansBold'; font-size: 16px; letter-spacing: 0.05em; color: #f5d378;}
-#revize-logo span {font-weight: 700;}
-#revize-logo span a {font-family: 'Roboto'; color: #fff; text-transform: lowercase}
+#revize-logo span {position: relative; font-weight: 700; margin-right: 25px;}
+#revize-logo span:after {content: ''; position: absolute; top: 1px; right: -15px; bottom: -1px; width: 1px; background-color: rgba(255,255,255,.2)}
+#revize-logo span a {font-family: 'Roboto'; color: #fff; text-transform: lowercase; top: 0;}
 
 #footer-links {background-color: #1f446d; padding: 16px 0 17px;}
 #footer-links a {font-size: 14px; line-height: 22px; font-weight: 700; color: #fff; text-transform: capitalize; text-decoration: none;}
@@ -492,6 +493,15 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#welcome-info {padding-left: 30px; padding-right: 30px;}
 	#welcome-info h2 {font-size: 68px;}
 
+	/*--------------- #events ---------------*/
+	#events a.btn {right: 0;}
+
+	/*--------------- footer ---------------*/
+	#top-footer,
+	#footer-links a {font-size: 13px;}
+	#revize-logo>a {font-size: 14px;}
+	#footer-links a i {font-size: 16px;}
+
 }
 
 @media only screen and (max-width:1040px) {
@@ -503,6 +513,17 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#slider {height: 500px;}
 	#slider h1 {font-size: 80px;}
 	#slider h1 span {font-size: 70px; left: -183px;}
+
+	/*--------------- #events ---------------*/
+	#events h2,
+	#events a.btn {float: none;}
+	#events a.btn {top: 0;}
+	#events .clearfix {margin-bottom: 30px;}
+
+	/*--------------- footer ---------------*/
+	#contact-info {float: none;}
+	#revize-logo {text-align: left; top: 0; margin-top: 5px;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -513,7 +534,8 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#freeform #formwizziwmorf tr,#freeform #formwizziwmorf tr td{display:block!important}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
-	.floating-share-btn{top:unset;bottom:0;padding:10.5px;font-size:11px}
+	.floating-share-btn{top:unset;bottom:55px;padding:10.5px;font-size:11px}
+	.img-container {display: none;}
 
 	/*--------------- #nav ---------------*/
 	#logo {position: static; display: inline-block; margin: 15px 0;}
@@ -556,6 +578,7 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	a.quick-link {font-size: 18px; padding-left: 40px; padding-right: 40px;}
 
 	/*--------------- #welcome ---------------*/
+	#welcome h2 {font-size: 64px;}
 	#welcome-info {padding: 50px 0;}
 	#welcome-links {padding: 0;}
 
@@ -572,6 +595,8 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 
 	#discover h2 span {font-size: 150px; top: 45px;}
 
+	/*--------------- #events ---------------*/
+	#events h2 {font-size: 64px;}
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -584,9 +609,14 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
+	a.btn {font-size: 14px!important;}
+
 	/*--------------- #slider ---------------*/
 	#slider h1 {font-size: 45px;}
 	#slider h1 span {font-size: 40px; top: 35px; left: -101px;}
+
+	/*--------------- #welcome ---------------*/
+	#welcome h2 {font-size: 52px; line-height: 80px;}
 
 	/*--------------- #news-discover ---------------*/
 	#news h2,
@@ -599,6 +629,8 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#discover {padding-top: 150px; padding-bottom: 80px;}
 	#discover h2 span {font-size: 125px;}
 
+	/*--------------- #events ---------------*/
+	#events h2 {font-size: 52px;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -611,6 +643,9 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#slider h1 {font-size: 34px;}
 	#slider h1 span {font-size: 30px; top: 42px; left: -78px;}
 
+	/*--------------- #welcome ---------------*/
+	#welcome h2 {font-size: 40px;}
+
 	/*--------------- #news-discover ---------------*/
 	#news h2,
 	#discover h2 {font-size: 40px;}
@@ -618,6 +653,17 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	#discover {padding-top: 125px;}
 	#discover h2 span {font-size: 95px;}
 	#discover-links {margin-top: 50px;}
+
+	/*--------------- #events ---------------*/
+	#events h2 {font-size: 40px;}
+
+	/*--------------- footer ---------------*/
+	#revize-logo span {margin: 0;}
+	#revize-logo span:after {display: none;}
+	#revize-logo>a {display: block;}
+
+	#footer-nav li {margin: 0 3px;}
+	#footer-links a i {font-size: 14px; margin-right: 0;}
 
 }
 
