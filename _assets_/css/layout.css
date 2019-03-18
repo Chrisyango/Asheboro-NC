@@ -41,7 +41,7 @@ h3{font-size:28px}
 h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
-.header{font-size:28px;color:#111;margin-bottom:30px}
+.header{font-family:'OpenSansBold';font-size:28px;color:#1f446d;margin-bottom:30px}
 .subheader{font-family:'OpenSansBold';font-size:20px;line-height:48px;letter-spacing:0.1em;text-transform:uppercase;color:#1f446d;display:inline-block;margin-top:9px;margin-bottom:14px}
 p{margin:0 0 30px 0}
 em{font-style:italic}
@@ -233,7 +233,7 @@ nav,
 .goog-te-menu-value span{display:none}
 .goog-te-menu-value span:first-of-type{font-family:'OpenSansBold';font-size:16px;letter-spacing:0.05em;color:#f5d378;display:inline-block}
 
-#nav li{display:inline-block;margin:0}
+#nav li{position:relative;display:inline-block;margin:0}
 #nav ul{display:none;margin:0;padding:0}
 #nav li a{display:block;font-family:'OpenSansBold';font-size:20px;line-height:48px;text-transform:capitalize;color:#1f446d;text-decoration:none;padding:26px 20px 28px}
 
@@ -362,7 +362,7 @@ a.discover-link h3{position:absolute;top:50%;left:50%;transform:translate(-50.5%
 #revize-logo span:after{content:'';position:absolute;top:1px;right:-15px;bottom:-1px;width:1px;background-color:rgba(255,255,255,.2)}
 #revize-logo span a{font-family:'Roboto';color:#fff;text-transform:lowercase;top:0}
 
-#footer-links{background-color:#1f446d;padding:16px 0 17px}
+#footer-links{background-color:#1f446d;padding:17px 0 16px}
 #footer-links a{font-size:14px;line-height:22px;font-weight:700;color:#fff;text-transform:capitalize;text-decoration:none}
 #footer-links a i{color:#84b54a;font-size:18px;margin-right:6px}
 #footer-links .social-links a{color:#84b54a}
@@ -496,7 +496,7 @@ a.discover-link h3{position:absolute;top:50%;left:50%;transform:translate(-50.5%
 	#nav li a:hover{color:#84b54a}
 	#nav li:hover>ul{display:block}
 	#nav ul{position:absolute;background-color:#fff;text-align:left}
-	#nav ul li{display:block;position:relative;width:120px}
+	#nav ul li{display:block;width:120px}
 	#nav ul li a{font-size:18px;padding:10px;line-height:normal}
 	#nav ul ul{top:0;left:100%}
 	#nav ul ul li a{font-size:16px}
@@ -591,7 +591,7 @@ a.discover-link h3{position:absolute;top:50%;left:50%;transform:translate(-50.5%
 	#nav-toggle{display:inline-block;cursor:pointer}
 	.down-arrow{display:none} /* if not hidden above */
 	#nav{display:none}
-	#nav li{position:relative;float:none;display:block}
+	#nav li{float:none;display:block}
 	#nav li a,
 	#nav li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}

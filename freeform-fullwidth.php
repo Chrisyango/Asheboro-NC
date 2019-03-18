@@ -27,7 +27,7 @@
 	<![endif]-->
 
 </head>
-<body id="freeform">
+<body id="freeform" class="fullwidth">
 
 <header class="clearfix">
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
