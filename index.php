@@ -56,14 +56,29 @@
 				<li id="font-decrease" class="fa fa-minus"></li>
 				<li id="font-increase" class="fa fa-plus"></li>
 				<li id="google-translate">
+					<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+					<div id="google_translate_element"></div>
 					<script type="text/javascript">
 						function googleTranslateElementInit() {
-							new google.translate.TranslateElement({pagelanguage: 'en',
-								layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
-								'google-translate');
+							new google.translate.TranslateElement({  
+								pageLanguage: 'en', 
+								layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+							}, 'google_translate_element');
 						}
 					</script>
 					<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					<script>
+						$(document).ready(function(){
+							$('#google_translate_element').bind('DOMNodeInserted', function(event) {
+								$('.goog-te-menu-value span:first').html('ENG <i class="fa fa-chevron-down"></i>');
+								$('.goog-te-menu-frame.skiptranslate').load(function(){
+									setTimeout(function(){
+										$('.goog-te-menu-frame.skiptranslate').contents().find('.goog-te-menu2-item-selected .text').html('ENG <i class="fa fa-chevron-down"></i>');    
+									}, 100);
+								});
+							});
+						});
+					</script>
 				</li><!--/#google-translate.control.hidden-sm.hidden-xs-->
 			</ul><!-- /#settings -->
 		</div><!-- /#top-nav -->

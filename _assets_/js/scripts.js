@@ -264,6 +264,15 @@
 
 	$window.ready(function(){
 
+		// Translate
+		setInterval(function(){ 
+			if ( $('html').hasClass('translated-ltr')) {
+				$('header').css('top','39px');
+			}else{
+				$('header').css('top','0px');
+			}
+			}, 0);
+
 		// Video Background
 		if ( typeof $.fn.YTPlayer !== "undefined"){
 			$(function(){
