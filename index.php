@@ -253,34 +253,46 @@
 					<h2><span>discover</span> discover asheboro</h2>
 					<div id="discover-links" class="row">
 						<div class="col-md-4 col-sm-6">
-							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover1.jpg') center no-repeat;background-size:cover;">
-								<h3>north carolina zoo</h3>
-							</a><!-- /.discover-link -->
+							<div class="discover-link-wrapper">
+								<a href="./" class="discover-link" style="background:url('./_assets_/images/discover1.jpg') center no-repeat;background-size:cover;">
+									<h3>north carolina zoo</h3>
+								</a><!-- /.discover-link -->
+							</div><!-- /.discover-link-wrapper -->
 						</div><!-- /.col-md-4 col-sm-6 -->
 						<div class="col-md-4 col-sm-6">
-							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover2.jpg') center no-repeat;background-size:cover;">
-								<h3>north carolina zoo</h3>
-							</a><!-- /.discover-link -->
+							<div class="discover-link-wrapper">
+								<a href="./" class="discover-link" style="background:url('./_assets_/images/discover2.jpg') center no-repeat;background-size:cover;">
+									<h3>north carolina zoo</h3>
+								</a><!-- /.discover-link -->
+							</div><!-- /.discover-link-wrapper -->
 						</div><!-- /.col-md-4 col-sm-6 -->
 						<div class="col-md-4 col-sm-6">
-							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover3.jpg') center no-repeat;background-size:cover;">
-								<h3>north carolina zoo</h3>
-							</a><!-- /.discover-link -->
+							<div class="discover-link-wrapper">
+								<a href="./" class="discover-link" style="background:url('./_assets_/images/discover3.jpg') center no-repeat;background-size:cover;">
+									<h3>north carolina zoo</h3>
+								</a><!-- /.discover-link -->
+							</div><!-- /.discover-link-wrapper -->
 						</div><!-- /.col-md-4 col-sm-6 -->
 						<div class="col-md-4 col-sm-6">
-							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover4.jpg') center no-repeat;background-size:cover;">
-								<h3>north carolina zoo</h3>
-							</a><!-- /.discover-link -->
+							<div class="discover-link-wrapper">
+								<a href="./" class="discover-link" style="background:url('./_assets_/images/discover4.jpg') center no-repeat;background-size:cover;">
+									<h3>north carolina zoo</h3>
+								</a><!-- /.discover-link -->
+							</div><!-- /.discover-link-wrapper -->
 						</div><!-- /.col-md-4 col-sm-6 -->
 						<div class="col-md-4 col-sm-6">
-							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover5.jpg') center no-repeat;background-size:cover;">
-								<h3>north carolina zoo</h3>
-							</a><!-- /.discover-link -->
+							<div class="discover-link-wrapper">
+								<a href="./" class="discover-link" style="background:url('./_assets_/images/discover5.jpg') center no-repeat;background-size:cover;">
+									<h3>north carolina zoo</h3>
+								</a><!-- /.discover-link -->
+							</div><!-- /.discover-link-wrapper -->
 						</div><!-- /.col-md-4 col-sm-6 -->
 						<div class="col-md-4 col-sm-6">
-							<a href="./" class="discover-link" style="background:url('./_assets_/images/discover6.jpg') center no-repeat;background-size:cover;">
-								<h3>north carolina zoo</h3>
-							</a><!-- /.discover-link -->
+							<div class="discover-link-wrapper">
+								<a href="./" class="discover-link" style="background:url('./_assets_/images/discover6.jpg') center no-repeat;background-size:cover;">
+									<h3>north carolina zoo</h3>
+								</a><!-- /.discover-link -->
+							</div><!-- /.discover-link-wrapper -->
 						</div><!-- /.col-md-4 col-sm-6 -->
 					</div><!-- /#discover-links -->
 					<a href="./" class="btn">view all attractions</a>
