@@ -201,6 +201,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 #skip:focus{left:15px;text-decoration:none;color:#fff;background-color:#c85530;padding:10px 20px}
 body{overflow-x:hidden}
 .container {width: 1200px; max-width: 100%;}
+#content {margin-top: -72px;}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
@@ -258,7 +259,7 @@ nav,
 
 
 /*--------------- #slider ---------------*/
-#quick-links {position: relative; bottom: 93px; z-index: 51;}
+#quick-links {position: relative; top: -24px; margin-top: -69px; z-index: 51;}
 #quick-links .container {max-width: calc(100% - 60px);}
 #quick-links-wrapper .owl-height {height:250px!important;}
 #quick-links-wrapper .owl-prev,
@@ -276,8 +277,8 @@ a.quick-link:hover .img-wrapper {top: -36px; transform: scale(0.89)}
 
 
 /*--------------- #welcome ---------------*/
-#welcome {position: relative; padding-top: 109px; padding-bottom: 19px;}
-#welcome-bg {position: absolute; top: -181px; left: 0; width: 729px; max-width: 100%; height: 591px; z-index: -1;}
+#welcome {position: relative; padding-bottom: 19px;}
+#welcome-bg {position: absolute; top: -290px; left: 0; width: 729px; max-width: 100%; height: 591px; z-index: -1;}
 #welcome-effect {position: absolute; width: 107.5%; padding-bottom: 107%; border-radius: 100%; opacity: 0.2; z-index: -1;}
 
 #welcome .img-container {position: relative;}
@@ -313,7 +314,7 @@ a.quick-link:hover .img-wrapper {top: -36px; transform: scale(0.89)}
 #news .container {position: relative; z-index: 1;}
 #news h2 {font-family: 'OpenSansBold'; font-size: 76px; line-height: 100px; text-transform: uppercase; color: #fff; text-shadow: 0px 6px 0px rgba(86, 146, 191, 0.3); float: left; margin: 0;}
 #news a.btn {font-family: 'OpenSansBold'; font-size: 16px; line-height: 42px; letter-spacing: 0.05em; float: right; position: relative; top: 37px; margin: 0; padding: 0; width: 168px; height: 42px;  }
-#news-links {position: relative; top: 29px; max-width: calc(100% - 60px); margin: 0 auto;}
+#news-links {position: relative; top: 29px; margin: 0 auto;}
 #news-links .owl-height {height: 470px!important;}
 #news-links .owl-prev,
 #news-links .owl-next {position: absolute; top: 50%; left: -30px; transform: translateY(-50%); font-size: 30px;}
@@ -331,8 +332,9 @@ a.quick-link:hover .img-wrapper {top: -36px; transform: scale(0.89)}
 #discover h2 span {position: absolute; top: 51px; left: 50%; transform: translateX(-51.5%); font-family: 'Blacksword'; font-size: 200px; line-height: 22px; color: #d6bc76; text-transform: capitalize; z-index: -1; text-shadow: none;}
 #discover a.btn {font-family: 'OpenSansBold'; font-size: 16px; letter-spacing: 0.05em; position: relative; top: 27px; width: 221px; height: 42px; line-height:  42px; padding: 0;}
 #discover-links {position: relative; margin-top: 81px;}
-a.discover-link {display: inline-block; width: 100%; margin-bottom: 30px; text-decoration: none; text-align: center; padding: 84px 0 74px;}
-a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em; font-weight: 700; color: #fff; text-transform: capitalize;}
+a.discover-link {display: inline-block; width: 100%; height: 256px; margin-bottom: 24px; text-decoration: none; text-align: center;}
+a.discover-link:hover h3 {opacity: 1}
+a.discover-link h3 {position: absolute; top: 50%; left: 50%; transform: translate(-50.5%, -88%); margin: 0; width: 100%; font-size: 30px; letter-spacing: -0.025em; font-weight: 700; color: #fff; text-transform: capitalize; opacity: 0; transition: all 0.3s;}
 
 
 /*--------------- #events ---------------*/
@@ -528,6 +530,12 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 
 }
 
+@media only screen and (max-width:1200px) {
+
+	/*--------------- #news ---------------*/
+	#news-links {max-width: calc(100% - 60px);}
+}
+
 @media only screen and (max-width:1040px) {
 
 	/*--------------- #nav ---------------*/
@@ -625,6 +633,7 @@ a.discover-link h3 {font-size: 30px; line-height: 48px; letter-spacing: -0.025em
 	.news-link h3 {font-size: 18px;}
 
 	#discover h2 span {font-size: 150px; top: 45px;}
+	a.discover-link h3 {opacity: 1}
 
 	/*--------------- #events ---------------*/
 	#events h2 {font-size: 64px;}

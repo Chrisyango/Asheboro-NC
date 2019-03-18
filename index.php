@@ -110,8 +110,7 @@
 	</div><!-- /.container -->
 </header><!-- /.clearfix -->
 
-<main id="main">
-	<section id="slider">
+<section id="slider">
 		<ul class="bxslider">
 			<li style="background: url('./_assets_/images/hero1.jpg') center no-repeat;background-size: cover;"></li>
 			<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover;"></li>
@@ -122,7 +121,12 @@
 			<h1><span>home of the</span>north carolina zoo</h1>
 		</div><!-- /.container -->
 
-		<section id="quick-links">
+	</section><!-- /#slider -->
+
+
+<main id="main">
+	
+<section id="quick-links">
 			<div class="container">
 				<div id="quick-links-wrapper" class="owl-carousel">
 					<a href="./" class="quick-link">
@@ -152,7 +156,6 @@
 				</div><!-- /#quick-links-wrapper.owl-carousel -->
 			</div><!-- /.container -->
 		</section><!-- /#quick-links -->
-	</section><!-- /#slider -->
 
 	<section id="content">
 		<section id="welcome">

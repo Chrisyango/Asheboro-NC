@@ -103,31 +103,31 @@
 	</div><!-- /.container -->
 </header><!-- /.clearfix -->
 
-<main id="main">
-	<section id="slider">
-		<ul class="bxslider">
-			<li style="background: url('./_assets_/images/inner-hero1.jpg') center no-repeat;background-size: cover;"></li>
-			<li style="background: url('./_assets_/images/inner-hero2.jpg') center no-repeat;background-size: cover;"></li>
-			<li style="background: url('./_assets_/images/inner-hero3.jpg') center no-repeat;background-size: cover;"></li>
-			<li style="background: url('./_assets_/images/inner-hero4.jpg') center no-repeat;background-size: cover;"></li>
-		</ul><!-- /.bxslider -->
-		<div class="container">
-			<h1 id="page-title">page title here</h1>
-			<section id="breadcrumbs">
-				<p>
-					<a href="./">
-						home
-					</a>
-					<a href="./">
-						category
-					</a>
-					page title
-				</p>
-			</section><!-- /#breadcrumbs -->
-		</div><!-- /.container -->
-		<div id="inner-bg" style="background:url('./_assets_/images/inner-bg.png') center no-repeat;background-size:cover;"></div>
-	</section><!-- /#slider -->
+<section id="slider">
+	<ul class="bxslider">
+		<li style="background: url('./_assets_/images/inner-hero1.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/inner-hero2.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/inner-hero3.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/inner-hero4.jpg') center no-repeat;background-size: cover;"></li>
+	</ul><!-- /.bxslider -->
+	<div class="container">
+		<h1 id="page-title">page title here</h1>
+		<section id="breadcrumbs">
+			<p>
+				<a href="./">
+					home
+				</a>
+				<a href="./">
+					category
+				</a>
+				page title
+			</p>
+		</section><!-- /#breadcrumbs -->
+	</div><!-- /.container -->
+	<div id="inner-bg" style="background:url('./_assets_/images/inner-bg.png') center no-repeat;background-size:cover;"></div>
+</section><!-- /#slider -->
 
+<main id="main">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
