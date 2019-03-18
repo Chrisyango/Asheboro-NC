@@ -236,7 +236,6 @@ nav,
 #nav li {display: inline-block; margin: 0;}
 #nav ul {display: none; margin: 0; padding: 0;}
 #nav li a {display: block; font-family: 'OpenSansBold'; font-size: 20px; line-height: 48px; text-transform: capitalize; color: #1f446d; text-decoration: none; padding: 26px 20px 28px;}
-#nav li a:hover {color: #84b54a;}
 
 .social-links {position: relative; top: 1px; display: inline-block; margin-right: 14px;}
 .social-links a {color: #84b54a; text-decoration: none; font-size: 18px; margin-left: 16px;}
@@ -494,6 +493,13 @@ a.discover-link h3 {position: absolute; top: 50%; left: 50%; transform: translat
 	#bottom-nav {text-align: right;}
 	nav,
 	#nav {display: inline-block; margin-right: 2.5px;}
+	#nav li a:hover {color: #84b54a;}
+	#nav li:hover>ul {display: block;}
+	#nav ul {position: absolute; background-color: #fff; text-align: left;}
+	#nav ul li {display: block; position: relative; width: 120px;}
+	#nav ul li a {font-size: 18px; padding: 10px 5px; line-height: normal;}
+	#nav ul ul {top: 0; left: 100%;}
+	#nav ul ul li a {font-size: 16px;}
 
 	/*--------------- #welcome ---------------*/
 	#welcome-links {padding: 0 22px 0 0; margin-top: 99px; margin-left: 22px; margin-right: -22px;}
@@ -505,6 +511,8 @@ a.discover-link h3 {position: absolute; top: 50%; left: 50%; transform: translat
 	/*--------------- #nav ---------------*/
 	#logo {top: 10px; width: 190px;}
 	#nav li a {font-size: 18px; padding: 20px 10px;}
+	#nav ul li a {font-size: 16px;}
+	#nav ul ul li a {font-size: 14px;}
 	.social-links {margin-right: 5px;}
 	.social-links a {margin-left: 10px;}
 	#search {width: 160px;}
@@ -540,6 +548,8 @@ a.discover-link h3 {position: absolute; top: 50%; left: 50%; transform: translat
 
 	/*--------------- #nav ---------------*/
 	#nav li a {font-size: 16px;}
+	#nav ul li a {font-size: 14px;}
+	#nav ul ul li a {font-size: 12px;}
 
 	/*--------------- #slider ---------------*/
 	#slider {height: 500px;}
@@ -590,8 +600,7 @@ a.discover-link h3 {position: absolute; top: 50%; left: 50%; transform: translat
 	#nav ul span{width:100%}
 	#nav ul ul{left:0}
 	#nav .toggle,
-	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:45px;width:45px;line-height:45px;text-align:center}
-	#nav li li:hover > a{background:none;color:#fff}
+	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:45px;width:45px;line-height:45px;text-align:center; font-size: 20px;}
 
 	#flyout{display:none}
 	#flyout li{}
