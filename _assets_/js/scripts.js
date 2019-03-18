@@ -54,13 +54,13 @@
 	}
 
 	// Search Toggle
-	$('#search-toggle').on('click',function(e){
+	$('#search-toggle').on('click keypress',function(e){
 		$('#search').stop().slideToggle(200);
 		$(this).toggleClass('fa-search fa-close');
 	});
 
 	// Navigation Toggle
-	$("#nav-toggle").on("click", function(){
+	$("#nav-toggle").on("click keypress", function(){
 		$("#nav").stop().slideToggle();
 		$(this).toggleClass("active");
 	});
