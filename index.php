@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="_assets_/css/jquery.mb.YTPlayer.min.css" media="all" type="text/css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
@@ -111,52 +112,59 @@
 	</div><!-- /.container -->
 </header><!-- /.clearfix -->
 
-<section id="slider">
-		<ul class="bxslider">
-			<li style="background: url('./_assets_/images/hero1.jpg') center no-repeat;background-size: cover;"></li>
-			<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover;"></li>
-			<li style="background: url('./_assets_/images/hero3.jpg') center no-repeat;background-size: cover;"></li>
-			<li style="background: url('./_assets_/images/hero4.jpg') center no-repeat;background-size: cover;"></li>
-		</ul><!-- /.bxslider -->
-		<div class="container">
-			<h1><span>home of the</span>north carolina zoo</h1>
-		</div><!-- /.container -->
+<section id="slider" style="display:none;">
+	<ul class="bxslider">
+		<li style="background: url('./_assets_/images/hero1.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero3.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero4.jpg') center no-repeat;background-size: cover;"></li>
+	</ul><!-- /.bxslider -->
+	<div class="container">
+		<h1><span>home of the</span>north carolina zoo</h1>
+	</div><!-- /.container -->
+</section><!-- /#slider -->
 
-	</section><!-- /#slider -->
-
+<section id="yt-player" style="background: url('./_assets_/images/hero1.jpg') center no-repeat;background-size: cover;">
+	<div class="container">
+		<div id="video-wrap" style="background: url('./_assets_/images/hero.jpg') center no-repeat; background-size: cover;">
+			<div id="video-bg" class="player"
+				data-property="{videoURL:'https://www.youtube.com/watch?v=QcZ4IaS9dQA',containment:'#video-bg',startAt:0,mute:false,autoPlay:false,loop:true,opacity:1,showControls:false}">
+			</div>
+		</div><!-- /#video-wrap -->
+	</div><!-- /.container -->
+</section><!-- /#yt-player -->
 
 <main id="main">
-	
-<section id="quick-links">
-			<div class="container">
-				<div id="quick-links-wrapper" class="owl-carousel">
-					<a href="./" class="quick-link">
-						<div class="img-wrapper">
-							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link1.png') center no-repeat;background-size:cover;"></div>
-						</div><!-- /.img-wrapper -->
-						utility billing
-					</a><!-- /.quick-links -->
-					<a href="./" class="quick-link">
-						<div class="img-wrapper">
-							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link2.png') center no-repeat;background-size:cover;"></div>
-						</div><!-- /.img-wrapper -->
-						public safety
-					</a><!-- /.quick-links -->
-					<a href="./" class="quick-link">
-						<div class="img-wrapper">
-							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link3.png') center no-repeat;background-size:cover;"></div>
-						</div><!-- /.img-wrapper -->
-						culture & recreation
-					</a><!-- /.quick-links -->
-					<a href="./" class="quick-link">
-						<div class="img-wrapper">
-							<div class="quick-link-img" style="background:url('./_assets_/images/quick-link4.png') center no-repeat;background-size:cover;"></div>
-						</div><!-- /.img-wrapper -->
-						forms & documents
-					</a><!-- /.quick-links -->
-				</div><!-- /#quick-links-wrapper.owl-carousel -->
-			</div><!-- /.container -->
-		</section><!-- /#quick-links -->
+	<section id="quick-links">
+		<div class="container">
+			<div id="quick-links-wrapper" class="owl-carousel">
+				<a href="./" class="quick-link">
+					<div class="img-wrapper">
+						<div class="quick-link-img" style="background:url('./_assets_/images/quick-link1.png') center no-repeat;background-size:cover;"></div>
+					</div><!-- /.img-wrapper -->
+					utility billing
+				</a><!-- /.quick-links -->
+				<a href="./" class="quick-link">
+					<div class="img-wrapper">
+						<div class="quick-link-img" style="background:url('./_assets_/images/quick-link2.png') center no-repeat;background-size:cover;"></div>
+					</div><!-- /.img-wrapper -->
+					public safety
+				</a><!-- /.quick-links -->
+				<a href="./" class="quick-link">
+					<div class="img-wrapper">
+						<div class="quick-link-img" style="background:url('./_assets_/images/quick-link3.png') center no-repeat;background-size:cover;"></div>
+					</div><!-- /.img-wrapper -->
+					culture & recreation
+				</a><!-- /.quick-links -->
+				<a href="./" class="quick-link">
+					<div class="img-wrapper">
+						<div class="quick-link-img" style="background:url('./_assets_/images/quick-link4.png') center no-repeat;background-size:cover;"></div>
+					</div><!-- /.img-wrapper -->
+					forms & documents
+				</a><!-- /.quick-links -->
+			</div><!-- /#quick-links-wrapper.owl-carousel -->
+		</div><!-- /.container -->
+	</section><!-- /#quick-links -->
 
 	<section id="content">
 		<section id="welcome">
@@ -206,7 +214,9 @@
 					<div class="welcome-img" style="background:url('./_assets_/images/welcome-img2.jpg') center no-repeat;background-size:cover;"></div>
 				</div><!-- /.img-container -->
 			</div><!-- /.container -->
-			<div id="welcome-bg" style="background:url('./_assets_/images/welcome-bg.png') center no-repeat;background-size:cover;"></div>
+			<div id="welcome-bg" style="background:url('./_assets_/images/welcome-bg.jpg') center no-repeat;background-size:cover;">
+				<div style="background:url('./_assets_/images/welcome-brush.png') center no-repeat;background-size:cover;width:100%;height:100%;"></div>
+			</div><!-- /#welcome-bg -->
 		</section><!-- /#welcome -->
 
 		<section id="news-discover">
@@ -245,7 +255,9 @@
 					</div><!-- /#news-links.owl-carousel -->
 				</div><!-- /.container -->
 			</section><!-- /#news -->
-			<div id="news-bg" style="background:url('./_assets_/images/news-bg.png') center no-repeat;background-size:cover;"></div>
+			<div id="news-bg" style="background:url('./_assets_/images/news-bg.jpg') center no-repeat;background-size:cover;">
+				<div style="background:url('./_assets_/images/news-brush.png') center no-repeat;background-size:cover;width:100%;height:100%;"></div>
+			</div><!-- /#news-bg -->
 
 			<section id="discover">
 				<div id="discover-effect" style="background:url('./_assets_/images/discover-effect.png') center no-repeat;background-size:cover;"></div>
@@ -298,7 +310,9 @@
 					<a href="./" class="btn">view all attractions</a>
 				</div><!-- /.container -->
 			</section><!-- /#discover -->
-			<div id="discover-bg" style="background:url('./_assets_/images/discover-bg.png') center no-repeat;background-size:cover;"></div>
+			<div id="discover-bg" style="background:url('./_assets_/images/discover-bg.jpg') center no-repeat;background-size:cover;">
+				<div style="background:url('./_assets_/images/discover-brush.png') center no-repeat;background-size:cover;width:100%;height:100%;"></div>
+			</div><!-- /#discover-bg -->
 		</section><!-- /#news-discover -->
 
 		<section id="events">
@@ -315,7 +329,9 @@
 					<div class="events-img" style="background:url('./_assets_/images/events-img2.jpg') center no-repeat;background-size:cover;"></div>
 				</div><!-- /.img-container -->
 			</div><!-- /.container -->
-			<div id="events-bg" style="background:url('./_assets_/images/events-bg.png') center no-repeat;background-size:cover;"></div>
+			<div id="events-bg" style="background:url('./_assets_/images/events-bg.jpg') center no-repeat;background-size:cover;">
+				<div style="background:url('./_assets_/images/events-brush.png') center no-repeat;background-size:cover;width:100%;height:100%;"></div>
+			</div><!-- /#events-bg -->
 		</section><!-- /#events -->
 	</section><!-- /#content -->
 </main>
@@ -424,6 +440,7 @@
 
 
 <script src="_assets_/js/jquery.min.js"></script>
+<script src="_assets_/js/jquery.mb.YTPlayer.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>

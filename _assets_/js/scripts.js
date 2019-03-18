@@ -264,6 +264,13 @@
 
 	$window.ready(function(){
 
+		// Video Background
+		if ( typeof $.fn.YTPlayer !== "undefined"){
+			$(function(){
+				$("#video-bg").YTPlayer();
+			});
+		}
+
 		// Skip To Content
 		$("#skip").click(function(event){
     
@@ -313,13 +320,13 @@
 				$inc = $('#font-increase');
 				$dec = $('#font-decrease');
 				$inc.on('click', function(e) {
-					return $('#post,body, #nav a,#nav span, body section').css({
+					return $('#post p,#post li,body,body p, #nav a,#nav span, body section').css({
 						'font-size': '+=3',
 						'line-height' : '+= 3'
 					});
 				});
 				$dec.on('click', function(e) {
-					return $('#post,body, #nav a,#nav span, body section').css({
+					return $('#post p,#post li,body,body p, #nav a,#nav span, body section').css({
 						'font-size': '-=3',
 						'line-height' : '+= 3'
 					});

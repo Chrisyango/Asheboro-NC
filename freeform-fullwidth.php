@@ -125,7 +125,9 @@
 				</p>
 			</section><!-- /#breadcrumbs -->
 		</div><!-- /.container -->
-		<div id="inner-bg" style="background:url('./_assets_/images/inner-bg.png') center no-repeat;background-size:cover;"></div>
+		<div id="inner-bg" style="background:url('./_assets_/images/inner-bg.jpg') center no-repeat;background-size:cover;">
+			<div style="background:url('./_assets_/images/inner-brush.png') center no-repeat;background-size:cover;width:100%;height:100%;"></div>
+		</div>
 	</section><!-- /#slider -->
 
 	<div class="container">
